@@ -1,5 +1,10 @@
 # nexus-prover-node
-$25M Nexus Prover Node Cli setup using a service file to run 24/7
+$27.2M Nexus Prover Node Cli setup using a service file to run 24/7
+
+Unlock the Power of Verifiable Computation
+
+Site : [Nexus](https://nexus.xyz/) | X : [NexusLabs](https://x.com/NexusLabsHQ) | Docs : [Nexus docs](https://docs.nexus.xyz/)
+
 
 
 # Join Crypto Console Community
