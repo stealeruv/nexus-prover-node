@@ -103,6 +103,7 @@ sudo systemctl start nexus.service
 ### Step 6: Fixing unused imports
 
 ```bash
+cd nexus-cli/clients/cli
 cargo fix --bin "prover"
 ```
 
