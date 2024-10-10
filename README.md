@@ -94,8 +94,8 @@ EOF
 ### Step 5: Reload Systemd, Start, and Enable the Nexus Service
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl start nexus.service
 sudo systemctl enable nexus.service
+sudo systemctl start nexus.service
 ```
 
 ---
