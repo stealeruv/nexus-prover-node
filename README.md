@@ -51,9 +51,7 @@ sudo apt update && sudo apt install -y git pkg-config libssl-dev build-essential
 ```bash
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
-
-# Add Rust to the PATH permanently (if not already added)
-echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.bashrc
+export PATH="$HOME/.cargo/bin:$PATH"
 source ~/.bashrc
 
 # Verify Rust installation
@@ -64,12 +62,7 @@ rustc --version
 
 ### Step 3: Clone Nexus Repository (if it doesn't already exist)
 ```bash
-if [ ! -d "$HOME/nexus-cli" ]; then
-    echo "Cloning Nexus-XYZ network API repository..."
-    git clone https://github.com/nexus-xyz/network-api.git "$HOME/nexus-cli"
-else
-    echo "Repository already exists. Skipping cloning."
-fi
+git clone https://github.com/nexus-xyz/network-api.git "$HOME/nexus-cli"
 ```
 
 ---
