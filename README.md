@@ -60,7 +60,7 @@ rustc --version
 
 ---
 
-### Step 3: Clone Nexus Repository (if it doesn't already exist)
+### Step 3: Clone Nexus Repository
 ```bash
 git clone https://github.com/nexus-xyz/network-api.git "$HOME/nexus-cli"
 ```
