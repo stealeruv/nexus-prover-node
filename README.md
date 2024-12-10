@@ -42,20 +42,27 @@ VPS 4 : [Contabo: Cloud VPS 4](https://www.anrdoezrs.net/click-101278318-1379647
 
 ### Step 1: Install Dependencies
 ```bash
-sudo apt update && sudo apt install -y git pkg-config libssl-dev build-essential curl
+sudo apt update && sudo apt upgrade
+sudo apt install build-essential pkg-config libssl-dev git-all
 ```
 
 ---
 
-### Step 2: Install Rust
+### Step 2: Install Rust(Existing users Skip this process)
 ```bash
 curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
 export PATH="$HOME/.cargo/bin:$PATH"
 source ~/.bashrc
-
-# Verify Rust installation
 rustc --version
+```
+
+**Remove existing folder and services**
+
+```
+sudo systemctl stop nexus.service
+sudo systemctl disable nexus.service
+rm -rf nexus-cli
 ```
 
 ---
@@ -63,7 +70,17 @@ rustc --version
 ### Step 3: Clone Nexus Repository
 ```bash
 git clone https://github.com/nexus-xyz/network-api.git "$HOME/nexus-cli"
+cd nexus-cli/clients/cli
 ```
+
+### Install protoc
+```
+sudo apt update
+sudo apt install -y protobuf-compiler
+protoc --version
+```
+
+result should be **libprotoc 3.21.5**
 
 ---
 
@@ -98,7 +115,7 @@ sudo systemctl start nexus.service
 
 ---
 
-### Step 6: Fixing unused imports
+### Step 6: Fixing unused imports(Optional)
 
 ```bash
 cd nexus-cli/clients/cli
@@ -118,3 +135,6 @@ journalctl -u nexus.service -fn 50
 ```bash
 cat $HOME/.nexus/prover-id
 ```
+
+
+Follow : x.com/cryptoconsol
