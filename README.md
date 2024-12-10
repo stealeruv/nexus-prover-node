@@ -115,23 +115,16 @@ sudo systemctl start nexus.service
 
 ---
 
-### Step 6: Fixing unused imports(Optional)
-
-```bash
-cd nexus-cli/clients/cli
-cargo fix --bin "prover"
-```
-
 ---
 
-### Step 7: View Nexus Service Logs
+### Step 6: View Nexus Service Logs
 ```bash
 journalctl -u nexus.service -fn 50
 ```
 
 ---
 
-### Step 8: Get Prover ID
+### Step 7: Get Prover ID
 ```bash
 cat $HOME/.nexus/prover-id
 ```
