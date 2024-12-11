@@ -50,7 +50,7 @@ sudo apt install build-essential pkg-config libssl-dev git-all
 
 ### Step 2: Install Rust(Existing users Skip this process)
 ```bash
-curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 source $HOME/.cargo/env
 export PATH="$HOME/.cargo/bin:$PATH"
 source ~/.bashrc
