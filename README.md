@@ -129,5 +129,29 @@ journalctl -u nexus.service -fn 50
 cat $HOME/.nexus/prover-id
 ```
 
+## ProverID Update
+
+Goto : https://beta.nexus.xyz/
+
+Connect and Verify Email, then copy the prover ID (left corner)
+
+Login to VPS 
+
+Run
+```
+nano $HOME/.nexus/prover-id
+```
+
+Replace the browser proverID then Press CTRL + X, and Press Y and Press Enter.
+
+```
+sudo systemctl restart nexus.service
+```
+
+Check Logs
+
+```bash
+journalctl -u nexus.service -fn 50
+```
 
 Follow : x.com/cryptoconsol
