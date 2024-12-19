@@ -56,7 +56,9 @@ Credit Card/Paypal/Crypto Credit card :
 
 **12 vCPU Cores | 48 GB RAM | 400 GB NVMe or 1.6 TB SSD | 3 Snapshots | 32 TB Traffic* | Unlimited Incoming**  
 
+
 💡 **Get started with the perfect VPS for your needs!** 🚀
+
 
 ---
 
