@@ -30,7 +30,9 @@ VPS 1 is enough for Nexus Prover
 
 Credit Card/Paypal/Crypto Credit card : 
 
+
 💻 **Contabo VPS Options! 🚀**  
+
 
 📌 **VPS 1**  : 🔗 [Contabo VPS 1](https://www.jdoqocy.com/click-101278318-15692486) 
 
@@ -47,6 +49,7 @@ Credit Card/Paypal/Crypto Credit card :
 📌 **VPS 4**  : 🔗 [Contabo VPS 4](https://www.anrdoezrs.net/click-101278318-13796476)
 
 *12 vCPU Cores | 48 GB RAM | 400 GB NVMe or 1.6 TB SSD | 3 Snapshots | 32 TB Traffic* | Unlimited Incoming
+
 
 
 💡 **Get started with the perfect VPS for your needs!** 🚀
